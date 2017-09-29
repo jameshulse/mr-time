@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/jameshulse/mr-time.svg?branch=master)](https://travis-ci.org/jameshulse/mr-time) [![npm](https://img.shields.io/npm/v/mr-time.svg)](https://www.npmjs.com/package/mr-time)
+[![Build Status](https://travis-ci.org/jameshulse/mr-time.svg?branch=master)](https://travis-ci.org/jameshulse/mr-time) [![Coverage Status](https://coveralls.io/repos/github/jameshulse/mr-time/badge.svg?branch=master)](https://coveralls.io/github/jameshulse/mr-time?branch=master) [![npm](https://img.shields.io/npm/v/mr-time.svg)](https://www.npmjs.com/package/mr-time)
 
 # Mr. Time 👨🏻🕑
 
