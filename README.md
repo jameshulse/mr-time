@@ -30,7 +30,7 @@ setTimeout(myMethod, T(24).hours.in.milliseconds); // No googling, easy to read,
 ```
 
 ### Installation
-`npm intall mr-time`
+`npm install mr-time`
   
 `yarn add mr-time`
   
