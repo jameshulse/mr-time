@@ -1,0 +1,14 @@
+{
+  "name": "mr-time",
+  "version": "0.0.1",
+  "description": "Fluent time conversion",
+  "main": "index.js",
+  "author": "James Hulse <james.hulse@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest ."
+  },
+  "dependencies": {
+    "jest": "^21.2.1"
+  }
+}
