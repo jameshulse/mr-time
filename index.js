@@ -9,6 +9,9 @@ let converter = (millisecondUnit) => {
         return {
             get in() {
                 return {
+                    get weeks() {
+                        return value * millisecondUnit / WEEK_IN_MS;
+                    },
                     get days() {
                         return value * millisecondUnit / DAY_IN_MS;
                     },
@@ -30,6 +33,7 @@ let converter = (millisecondUnit) => {
     }
 };
 
+const weekConverter = converter(WEEK_IN_MS);
 const dayConverter = converter(DAY_IN_MS);
 const hourConverter = converter(HOUR_IN_MS);
 const minuteConverter = converter(MINUTE_IN_MS);
@@ -45,6 +49,9 @@ let MrTime = (value) => {
     }
 
     return {
+        get weeks() {
+            return weekConverter(value);
+        },
         get days() {
             return dayConverter(value);
         },
