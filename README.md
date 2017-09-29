@@ -36,6 +36,10 @@ setTimeout(myMethod, T(24).hours.in.milliseconds); // No googling, easy to read,
 ```javascript
 let T = require('mr-time');
   
-let oneDayInMilliseconds = T(1).days.in.milliseconds;
-let twoWeeksInSeconds = T(2).weeks.in.seconds;
+let oneDayInMilliseconds = T(1).days.in.milliseconds; // returns 86400000
+let twoWeeksInSeconds = T(2).weeks.in.seconds; // returns 1210000
 ```
+
+### Upcoming
+
+- Add month, year, decade, century, nanoseconds etc
