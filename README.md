@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jameshulse/mr-time.svg?branch=master)](https://travis-ci.org/jameshulse/mr-time)
+
 # Mr. Time 👨🏻🕑
 
 ### Description
