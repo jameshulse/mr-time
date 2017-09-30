@@ -1,8 +1,14 @@
 {
   "name": "mr-time",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Tiny fluent time conversions package for better code readability Edit",
-  "keywords": ["time", "conversion", "fluent", "readability", "code-quality"],
+  "keywords": [
+    "time",
+    "conversion",
+    "fluent",
+    "readability",
+    "code-quality"
+  ],
   "main": "index.js",
   "author": "James Hulse <james.hulse@gmail.com>",
   "license": "MIT",
