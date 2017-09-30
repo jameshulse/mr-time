@@ -17,5 +17,5 @@ test('Null throws exception', () => {
 });
 
 test('Infinity returns infinity', () => {
-    expect(T(Infinity)).toEqual(Infinity);
+    expect(() => T(Infinity)).toThrow();
 });
