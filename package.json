@@ -5,6 +5,11 @@
   "main": "index.js",
   "author": "James Hulse <james.hulse@gmail.com>",
   "license": "MIT",
+  "homepage": "https://github.com/jameshulse/mr-time",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jameshulse/mr-time"
+  },
   "scripts": {
     "test": "jest ."
   },
