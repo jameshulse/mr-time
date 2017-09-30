@@ -1,6 +1,6 @@
 {
   "name": "mr-time",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Tiny fluent time conversions package for better code readability Edit",
   "keywords": [
     "time",
