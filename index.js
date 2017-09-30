@@ -41,9 +41,6 @@ const secondConverter = converter(SECOND_IN_MS);
 const millisecondConverter = converter(1.0);
 
 let MrTime = (value) => {
-    if(value === Infinity) {
-        return Infinity;
-    }
     if(value === null || !isFinite(value)) {
         throw new Error(`Invalid time value given: ${value}`);
     }
