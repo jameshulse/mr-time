@@ -1,0 +1,6 @@
+.vscode/
+__tests__/
+.gitignore
+.travis.yml
+yarn.lock
+coverage/
