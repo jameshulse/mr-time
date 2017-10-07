@@ -1,6 +1,6 @@
 {
   "name": "mr-time",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Tiny fluent time conversions package for better code readability Edit",
   "keywords": [
     "time",
@@ -9,7 +9,7 @@
     "readability",
     "code-quality"
   ],
-  "main": "index.js",
+  "main": "build/index.js",
   "author": "James Hulse <james.hulse@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/jameshulse/mr-time",
@@ -18,13 +18,19 @@
     "url": "https://github.com/jameshulse/mr-time"
   },
   "scripts": {
-    "test": "jest ."
+    "test": "jest .",
+    "build": "babel index.js -d ./build",
+    "prepublish": "yarn build"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
     "coveralls": "^3.0.0",
     "jest": "^21.2.1"
   },
   "jest": {
     "collectCoverage": true
-  }
+  },
+  "dependencies": {}
 }
