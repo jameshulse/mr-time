@@ -1,7 +1,5 @@
 "use strict";
 
-function _defineEnumerableProperties(obj, descs) { for (var key in descs) { var desc = descs[key]; desc.configurable = desc.enumerable = true; if ("value" in desc) desc.writable = true; Object.defineProperty(obj, key, desc); } return obj; }
-
 var YEAR_IN_MS = 3.154e+10;
 var MONTH_IN_MS = 2.628e+9;
 var WEEK_IN_MS = 6.048e+8;
@@ -48,9 +46,7 @@ var converterFactory = function converterFactory(millisecondUnit) {
 var yearConverter = function yearConverter(value) {
     return {
         get in() {
-            var _hours, _ref, _mutatorMap;
-
-            return _ref = {
+            return {
                 get years() {
                     return value;
                 },
@@ -71,10 +67,11 @@ var yearConverter = function yearConverter(value) {
                 },
                 get seconds() {
                     return value * YEAR_IN_MS / SECOND_IN_MS;
+                },
+                get milliseconds() {
+                    return value * YEAR_IN_MS;
                 }
-            }, _hours = "hours", _mutatorMap = {}, _mutatorMap[_hours] = _mutatorMap[_hours] || {}, _mutatorMap[_hours].get = function () {
-                return value * YEAR_IN_MS;
-            }, _defineEnumerableProperties(_ref, _mutatorMap), _ref;
+            };
         }
     };
 };
