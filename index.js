@@ -66,7 +66,7 @@ let yearConverter = (value) => {
                 get seconds() {
                     return value * YEAR_IN_MS / SECOND_IN_MS;
                 },
-                get hours() {
+                get milliseconds() {
                     return value * YEAR_IN_MS;
                 }
             }
