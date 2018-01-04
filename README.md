@@ -46,6 +46,4 @@ let twoWeeksInSeconds = T(2).weeks.in.seconds; // returns 1210000
 
 - Add month, year, decade, century, nanoseconds etc
 
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/9yyHykrAAsqcjRSLZcf5WyEU/jameshulse/mr-time'>
-  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/9yyHykrAAsqcjRSLZcf5WyEU/jameshulse/mr-time.svg' />
-</a>
+
